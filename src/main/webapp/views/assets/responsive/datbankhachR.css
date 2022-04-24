@@ -1,0 +1,44 @@
+/*pc*/
+@media (max-width: 1930px) and (min-width: 1900px){
+    .container_header-login-button{
+        margin-right: -200px;
+    }
+}
+/*lap*/
+@media (max-width: 1440px) and (min-width: 1024px){
+    .content_right{
+        padding: 20px 0;
+    }
+
+    .content_right_forminfo{
+        width: 439px;
+        height: 500px;
+    }
+
+    .content_left_forminput{
+        width: 870px;
+        height: 600px;
+    }
+
+    .content_left{
+        padding: 20px;
+    }
+
+    .form-group_input{
+        width: 400px !important;
+    }
+}
+
+/*tablet*/
+@media (min-width: 740px) and (max-width: 1023px){
+    .container_header-login-logo img{
+        float: left;
+        margin-left: 20px;
+    }
+
+    .container_header-login-button{
+        margin-right: 150px;
+    }
+}
+
+/*mobile*/

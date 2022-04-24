@@ -1,0 +1,31 @@
+.modal_add{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+	z-index: 5;
+}
+
+.modal_add.open{
+    display: flex;
+}
+
+.modal_add_container{
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+    animation: showModalFadeIn ease .6s;
+	margin: 0 auto;
+	margin-top: 4%;
+    padding: 10px 10px;
+}
+
+.error{
+    color: red;
+}

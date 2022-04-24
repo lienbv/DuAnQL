@@ -1,0 +1,20 @@
+/*pc*/
+@media (max-width: 1930px) and (min-width: 1900px){
+    .container_header-login-button{
+        margin-right: -200px;
+    }
+}
+
+/*tablet*/
+@media (min-width: 740px) and (max-width: 1023px){
+    .container_header-login-logo img{
+        float: left;
+        margin-left: 20px;
+    }
+
+    .container_header-login-button{
+        margin-right: 150px;
+    }
+}
+
+/*mobile*/

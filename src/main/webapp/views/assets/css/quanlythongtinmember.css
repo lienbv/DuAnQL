@@ -1,0 +1,106 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.container_content{
+    width: auto;
+    height: auto;
+    /*margin-top: 13px;*/
+    margin-bottom: 50px;
+}
+
+.content_header{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    margin: 20px 69px;
+    /*background-color: aqua;*/
+    position: relative;
+}
+
+.header_tabs{
+    position: absolute;
+    left: 25%;
+}
+
+.content1{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 14%;
+}
+
+.content1 h3{
+    margin-left: 38%;
+}
+.error{
+    color: red;
+    float: left;
+}
+
+.content_table{
+    position: relative;
+}
+
+.content1_table{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+tr td{
+    padding: 10px !important;
+}
+
+/*pc*/
+@media (max-width: 1930px) and (min-width: 1900px){
+    .table_lsdb,
+    .table_lshd{
+        margin-left: 10%;
+    }
+}
+
+/*table lịch sử đặt bàn*/
+.container_content-header{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.container_content-header--title{
+    position: absolute;
+    left: 45%;
+    text-decoration: underline;
+}
+
+/*modal detail*/
+.modal-detail{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: auto;
+}
+
+.modal_detail.open{
+    display: flex;
+}
+
+.modal-detail-container{
+    width: 1000px;
+    height: 430px;
+    background-color: white;
+    border-radius: 15px;
+    animation: showModalFadeIn ease .6s;
+	margin: 0 auto;
+	margin-top: 5%;
+    padding: 20px 10px;
+}
+
+.modal-detail-container_footer button{
+    float: right;
+}

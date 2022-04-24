@@ -1,0 +1,87 @@
+.right_header{
+    width: 100%;
+    height: 60px;
+    background-color: #864879;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.container_right_body{
+    position: relative;
+}
+
+.container_left{
+    z-index: 2;
+}
+
+.header_search{
+    float: right;
+    margin: 3px 10px 0 0;
+}
+
+.header_search input{
+    height: 38px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.body_right{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.body_right-header{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.body_right-header-info{
+    float: left;
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+
+.body_right-header-search input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.body_right-content--item{
+    width: 100%;
+    height: auto;
+    background-color: ghostwhite;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    float: left;
+    margin: 10px 60px 10px 0;
+}
+
+.item_img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+}
+
+.item_booking{
+    margin-top: 5px;
+}
+
